@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact-Me</title>
+    <link rel="icon" href="favicon.ico" />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        font-family: "Montserrat", sans-serif;
+      }
+
+      h2 {
+        text-align: center;
+        background-color: #e4f9f5;
+        padding: 20px 0px;
+        font-size: 50px;
+        font-weight: 400;
+      }
+
+      form {
+        text-align: left;
+        width: 30%;
+        margin: 50px 200px;
+        padding: 50px;
+        border: 5px solid #345b63;
+        border-radius: 15px;
+      }
+
+      .labels {
+        margin: 10px 0px;
+        display: inline-block;
+        width: 10%;
+        text-align: center;
+      }
+
+      #submit-btn {
+        padding: 5px 10px;
+        font-weight: 500;
+        border-radius: 5px;
+        border: 2px solid #345b63;
+      }
+
+      #submit-btn:hover {
+        background-color: #345b63;
+        border: 2px solid black;
+        color: white;
+        cursor: pointer;
+      }
+
+      .inputs {
+        padding: 0px 2px;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Contact Me</h2>
+    <form action="mailto:info@kiraruke19.com">
+      <label class="labels" for="">Name:</label>
+      <input class="inputs" type="text" placeholder="Name" />
+      <br />
+      <label class="labels" for="">Email:</label>
+      <input class="inputs" type="email" placeholder="Email" />
+      <br />
+      <input id="submit-btn" type="submit" />
+    </form>
+  </body>
+</html>
